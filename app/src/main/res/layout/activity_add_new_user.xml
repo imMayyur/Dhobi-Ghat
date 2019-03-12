@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddNewUser">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#1e77cc"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:id="@+id/txtUserName"
+        android:hint="Enter Customer Name"
+        android:maxLines="1"
+        android:maxHeight="1dp"
+        android:singleLine="true"
+        android:textColor="#1e77cc"/>
+
+    <EditText
+        android:id="@+id/txtUserMno"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:inputType="number"
+        android:hint="Enter Contact Number"
+        android:maxLines="1"
+        android:maxLength="106"
+        android:singleLine="true"
+        android:maxHeight="1dp"
+        android:textColor="#1e77cc"/>
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUserAdd"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"
+        android:hint="Enter Address"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:maxHeight="1dp"
+        android:textColor="#1e77cc"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#1e77cc"
+        />
+
+    <Button
+        android:layout_width="335dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Add User"
+        android:id="@+id/btnAddUser"
+        android:background="#e47003"
+        android:textColor="#e7e4e4"/>
+
+</LinearLayout>
